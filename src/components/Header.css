@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+
+.title {
+    display: flex;
+    justify-content: center; /* Horizontally center the logo and text */
+    align-items: center;
+    background-color: #d48a38; /* Optional: background color for the header */
+    padding: 3px;
+    font-family: 'Italiana', serif;
+  }
+  
+  .logo {
+    width: 70px; /* Adjust the size of the logo */
+    height: 50px; /* Keep it the same width/height for a square logo */
+    margin-right: 10px; /* Add space between the logo and the text */
+    align-items: center;
+  }
+
+  
+  .title p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    margin: 0; /* Remove default paragraph margin */
+    font-family: 'Italiana', serif;
+  }
+  

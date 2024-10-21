@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #EBB249;
+    color: black; 
+    width: 200px;
+    height: 100vh; 
+    font-family: 'Italiana', serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.sidebar li {
+  list-style-type: none;
+  padding-top: 20px; 
+  padding-bottom: 20px; /* Space between the text and the line */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+  
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.sidebar li:hover a {
+  color: white; /* Change the text color inside the box */
+}
