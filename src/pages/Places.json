@@ -1,0 +1,17 @@
+[
+    { "category": "important", "id": 1, "name": "Amaatra Hostel (you are here)", "position": [12.895512, 77.672951] },
+    { "category": "important", "id": 2, "name": "Happy Mart", "position": [12.892364, 77.673782] },
+    { "category": "important", "id": 3, "name": "Vishal Mega Mart", "position": [12.901585, 77.675913] },
+    { "category": "important", "id": 4, "name": "Aarogya Hastha Hospital", "position": [12.900588, 77.675686] },
+    { "category": "important", "id": 5, "name": "KVM Multi-Speciality Hospital", "position": [12.894682, 77.661681] },
+    { "category": "important", "id": 6, "name": "Aster Pharmacy", "position": [12.894479, 77.677838] },
+    { "category": "food", "id": 5, "name": "Goli Vada Pav", "position": [12.898326, 77.675344] },
+    { "category": "food", "id": 6, "name": "The Lassi Corner", "position": [12.89258, 77.673705] },
+    { "category": "food", "id": 7, "name": "Reliance Fresh", "position": [12.890726, 77.673405] },
+    { "category": "food", "id": 8, "name": "Juicy lucy", "position": [12.90074, 77.675555] },
+    { "category": "shopping", "id": 5, "name": "Max", "position": [12.89919, 77.67528] },
+    { "category": "shopping", "id": 6, "name": "TRENDS", "position": [12.9033204, 77.67672] },
+    { "category": "shopping", "id": 7, "name": "Polar Bear Ice Cream", "position": [12.90211, 77.67557] },
+    { "category": "shopping", "id": 8, "name": "Subway", "position": [12.90139, 77.676192] }
+  ]
+  

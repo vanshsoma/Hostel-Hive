@@ -1,0 +1,80 @@
+/* Container styling */
+.weekly-schedule {
+    width: 100%; /* Full width of the screen */
+    max-width: 80vw; /* Limits the width to 90% of the viewport */
+    margin: 0 auto; /* Center the table */
+    overflow-x: auto; /* Allows horizontal scroll on smaller screens to prevent spillage */
+    padding: 1rem; /* Adds padding around the table */
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-family: 'Italiana', serif;
+    font-weight: 700;
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width within the container */
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1vw; /* Responsive font size based on viewport width */
+}
+
+thead th {
+    background-color: #d48a38;
+    color: white;
+    padding: 1vw;
+    font-size: 1.1vw; /* Slightly larger font size for header */
+    border: 1px solid #ddd;
+}
+
+tbody td {
+    background-color: white;
+    padding: 1vw;
+    border: 1px solid #ddd;
+}
+
+.day-column {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover td {
+    background-color: #f1f1f1;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 3vw; /* Increase font size for readability on small screens */
+    }
+    thead th, tbody td {
+        padding: 2vw; /* Increase padding on smaller screens */
+    }
+}
+
+button {
+    padding: 6px 12px; /* Adjust padding for smaller buttons */
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer;
+    background-color: #d59241;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    flex: 0; /* Prevent stretching */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.navigation-buttons { 
+    display: flex;
+    justify-content: space-between; /* Distributes buttons to opposite ends */
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+    width: 100%; /* Ensure the container takes full width */
+}

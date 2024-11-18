@@ -1,0 +1,31 @@
+[
+    {
+        "deliveryId": "123",
+        "guestName": "John Doe",
+        "address": "1234 Elm St",
+        "status": "Pending",
+        "items": [
+            { "itemName": "Laptop", "quantity": 1, "price": 1200 },
+            { "itemName": "Phone", "quantity": 2, "price": 500 }
+        ]
+    },
+    {
+        "deliveryId": "124",
+        "guestName": "Jane Smith",
+        "address": "5678 Oak St",
+        "status": "Pending",
+        "items": [
+            { "itemName": "Tablet", "quantity": 3, "price": 300 },
+            { "itemName": "Headphones", "quantity": 1, "price": 100 }
+        ]
+    },
+    {
+        "deliveryId": "125",
+        "guestName": "Sam Wilson",
+        "address": "9876 Pine St",
+        "status": "Approved",
+        "items": [
+            { "itemName": "TV", "quantity": 1, "price": 1500 }
+        ]
+    }
+]

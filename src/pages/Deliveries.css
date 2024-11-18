@@ -1,0 +1,37 @@
+/* Deliveries.css */
+
+.deliveries-container {
+    margin: 20px;
+}
+
+.deliveries-container h1 {
+    text-align: center;
+}
+
+.deliveries-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.deliveries-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.deliveries-container button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deliveries-container button:hover {
+    background-color: #218838;
+}
